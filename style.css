@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  margin: 10px 0px;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: #008080;
+  font-size: 20px;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+.div-coneiner {
+  background-color: #fffafa;
+  margin: 10px 100px 5px 100px;
+  padding: 5px;
+  border-bottom: 1px solid rgba(54, 53, 53, 0.597);
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 670px) {
+  .div-coneiner {
+    margin: 10px 5px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  h2 {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
